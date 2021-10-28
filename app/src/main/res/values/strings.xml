@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestTaskHarman</string>
+    <string name="sunset_from_outer_wood">Sunset from outer wood</string>
+    <string name="who_s_playing_with_leafs">Who\'s playing with leafs?</string>
+    <string name="and_who_is_it_there">And who is it there?</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="parrot">Parrot</string>
+    <string name="alternative_sunset_view">Alternative sunset view</string>
+    <string name="playing_creature_photo">Playing creature photo</string>
+</resources>

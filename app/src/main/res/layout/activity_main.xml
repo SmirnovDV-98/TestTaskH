@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunset"
+    android:onClick="onSwipeListener"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/firstBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/sunset_from_outer_wood"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/secondBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/who_s_playing_with_leafs" />
+
+        <Button
+            android:id="@+id/thirdButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/and_who_is_it_there"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/FragmentArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+    </FrameLayout>
+
+</LinearLayout>
